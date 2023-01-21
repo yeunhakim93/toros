@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.Navbar {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.Carousel {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.About {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.ClassInfo {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.InstaFeed {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.Review {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
+
+.Footer {
+  height: 200px;
+  border: 1px grey solid;
+  width: 100%;
+}
