@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div className="about" id="about">
       <div className="profile-container">
-        <img className="profile" src="img/toros.jpg" />
+        <img className="profile" src="img/Toros.jpg" />
       </div>
       <div className="about-description">
         <h3>Toros</h3>
