@@ -11,7 +11,7 @@ import {
 export function Contact() {
   console.log("Contact");
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="studio-container">
         <img className="studio" src="img/studio.jpeg" />
       </div>

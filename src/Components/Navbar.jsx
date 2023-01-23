@@ -8,9 +8,15 @@ export function Navbar() {
       <div className="logo">Toros Pottery</div>
 
       <ul className="nav-list">
-        <li>About</li>
-        <li>Class</li>
-        <li>Contact</li>
+        <a href="#about">
+          <li>About</li>
+        </a>
+        <a href="#class">
+          <li>Class</li>
+        </a>
+        <a href="#contact">
+          <li>Contact</li>
+        </a>
       </ul>
     </div>
   );

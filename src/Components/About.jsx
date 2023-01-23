@@ -4,7 +4,7 @@ import "../App.css";
 export const About = () => {
   console.log("About");
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="profile-container">
         <img className="profile" src="img/toros.jpg" />
       </div>

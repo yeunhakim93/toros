@@ -4,7 +4,7 @@ import "../App.css";
 export const ClassInfo = () => {
   console.log("ClassInfo");
   return (
-    <div className="class-info">
+    <div className="class-info" id="class">
       <div className="class-description">
         <h3>Class</h3>
         <p>

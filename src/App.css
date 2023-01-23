@@ -50,16 +50,16 @@ p {
 .nav-list li {
   list-style-type: none;
 }
+.nav-list a {
+  text-decoration: none;
+  color: #223843;
+}
 
 /* Carousel */
 
-/* .carousel-outer-container {
-  position: relative;
+.carousel-outer-container {
+  margin-top: 70px;
 }
-.carousel-container {
-  position: absolute;
-  top: 70px;
-} */
 
 .carousel .thumb img {
   width: 100% !important;
