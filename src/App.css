@@ -10,9 +10,23 @@ body {
   background-color: #f5f1ed;
 }
 
+h3 {
+  margin: 5px 0;
+}
+p {
+  margin: 5px 0;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 /* Nav bar */
 
 .nav {
+  position: fixed;
+  top: 0px;
   height: 70px;
   width: 100%;
   background-color: #dbd3d8;
@@ -20,6 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.3);
 }
 .logo {
   padding: 20px;
@@ -37,88 +52,166 @@ body {
 }
 
 /* Carousel */
+
+/* .carousel-outer-container {
+  position: relative;
+}
+.carousel-container {
+  position: absolute;
+  top: 70px;
+} */
+
 .carousel .thumb img {
   width: 100% !important;
   height: 100% !important;
 }
 
 .carousel .slide img {
-  max-height: calc(100vh - 70px); /* change this to whatever you want */
+  height: calc(100vh - 70px); /* change this to whatever you want */
   object-fit: cover;
 }
 
-/* 
-.App {
-  text-align: center;
-}
+/* about */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.profile-container {
+  width: 300px;
+  height: 300px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-.Carousel {
-  height: 200px;
-  border: 1px grey solid;
+.profile {
+  display: block;
+  margin: auto;
+  width: 280px;
+  box-shadow: 3px 5px #223843, -5px -10px #d8b4a0;
+  transition: 0.3s;
+}
+.profile:hover {
+  width: 300px;
+  transition: 0.3s;
+}
+.about-description {
+  width: 500px;
+}
+/* class info */
+.class-info {
   width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
-
-.About {
-  height: 200px;
-  border: 1px grey solid;
-  width: 100%;
+.class-description {
+  width: 500px;
 }
-
-.ClassInfo {
-  height: 200px;
-  border: 1px grey solid;
-  width: 100%;
+.classphoto-container {
+  width: 300px;
+  max-height: 300px;
+}
+.classphoto {
+  display: block;
+  margin: auto;
+  width: 280px;
+  box-shadow: -5px 3px #d77a61, 15px 10px #dbd3d8;
+  transition: 0.3s;
+}
+.classphoto:hover {
+  width: 300px;
+  transition: 0.3s;
 }
 
 .InstaFeed {
+  margin: auto;
+  width: 850px;
   height: 200px;
   border: 1px grey solid;
-  width: 100%;
 }
 
 .Review {
+  margin: auto;
+  width: 850px;
   height: 200px;
   border: 1px grey solid;
-  width: 100%;
 }
 
-.Footer {
-  height: 200px;
-  border: 1px grey solid;
+.contact {
   width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
+.contact-description {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-description a {
+  color: #223843;
+  text-decoration: none;
+  font-size: 16px;
+}
+.studio-container {
+  width: 300px;
+  height: 200px;
+}
+.studio {
+  display: block;
+  margin: auto;
+  width: 280px;
+  box-shadow: -5px 3px #d77a61, 15px 10px #dbd3d8;
+  transition: 0.3s;
+}
+.studio:hover {
+  width: 300px;
+  transition: 0.3s;
+}
+.Footer {
+  height: 100px;
+  width: 100%;
+  background-color: #223843;
+  color: #dbd3d8;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* 
+.top-blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #023f92;
+  width: 50vmax;
+  z-index: 300;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1) translate(10px, -30px);
+  }
+  38% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+  40% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+  78% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+  80% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+  100% {
+    transform: scale(1) translate(10px, -30px);
+  }
+} */
