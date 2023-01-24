@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/toros/static/css/main.ef8b07ca.css",
-    "main.js": "/toros/static/js/main.2a2e9e82.js",
+    "main.js": "/toros/static/js/main.ffb8facb.js",
     "index.html": "/toros/index.html",
     "main.ef8b07ca.css.map": "/toros/static/css/main.ef8b07ca.css.map",
-    "main.2a2e9e82.js.map": "/toros/static/js/main.2a2e9e82.js.map"
+    "main.ffb8facb.js.map": "/toros/static/js/main.ffb8facb.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8b07ca.css",
-    "static/js/main.2a2e9e82.js"
+    "static/js/main.ffb8facb.js"
   ]
 }
