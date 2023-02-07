@@ -1,8 +1,8 @@
 import React from "react";
 import "../App.css";
+const classImg = require("../img/class.jpeg");
 
 export const ClassInfo = () => {
-  console.log("ClassInfo");
   return (
     <div className="class-info" id="class">
       <div className="class-description">
@@ -27,7 +27,7 @@ export const ClassInfo = () => {
         </p>
       </div>
       <div className="classphoto-container">
-        <img className="classphoto" src="img/class.jpeg" />
+        <img className="classphoto" src={classImg} />
       </div>
     </div>
   );

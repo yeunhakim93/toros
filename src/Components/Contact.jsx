@@ -7,13 +7,13 @@ import {
   faEnvelope,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
+const studioImg = require("../img/studio.jpeg");
 
 export function Contact() {
-  console.log("Contact");
   return (
     <div className="contact" id="contact">
       <div className="studio-container">
-        <img className="studio" src="img/studio.jpeg" />
+        <img className="studio" src={studioImg} />
       </div>
       <div className="contact-description">
         <h3>Toros Pottery Studio</h3>

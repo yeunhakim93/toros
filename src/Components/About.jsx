@@ -1,12 +1,12 @@
 import React from "react";
 import "../App.css";
+const profileImg = require("../img/Toros.jpg");
 
 export const About = () => {
-  console.log("About");
   return (
     <div className="about" id="about">
       <div className="profile-container">
-        <img className="profile" src="img/Toros.jpg" />
+        <img className="profile" src={profileImg} />
       </div>
       <div className="about-description">
         <h3>Toros</h3>

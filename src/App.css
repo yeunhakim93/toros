@@ -127,9 +127,27 @@ p {
 
 .InstaFeed {
   margin: auto;
-  width: 850px;
-  height: 200px;
-  border: 1px grey solid;
+  max-width: 850px;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -50px;
+  max-width: 780px;
+}
+
+.my-masonry-grid_column {
+  padding-left: 50px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column-item {
+  background: grey;
+  margin-bottom: 30px;
+  max-width: 250px;
+  box-shadow: 5px 7px 9px 0px #22384394;
 }
 
 .Review {
