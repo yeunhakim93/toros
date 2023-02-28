@@ -41,14 +41,14 @@ function App() {
         >
           <InstaFeed />
         </Rosa>
-        <Rosa
+        {/* <Rosa
           animation="fade-up"
           once={true}
           offset={300}
           style={{ zIndex: -1 }}
         >
           <Review />
-        </Rosa>
+        </Rosa> */}
         <Rosa
           animation="fade-up-right"
           once={true}
